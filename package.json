@@ -1,0 +1,28 @@
+{
+	"name": "subtraction_on_the_go",
+	"version": "1.0.0",
+	"description": "This is the task assigned to me for Subtraction on the go",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"test": "mocha || true"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rdev06/subtraction_on_the_go.git"
+	},
+	"keywords": [],
+	"author": "Roshan Dev",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rdev06/subtraction_on_the_go/issues"
+	},
+	"homepage": "https://github.com/rdev06/subtraction_on_the_go#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.10.3"
+	},
+	"devDependencies": {
+		"mocha": "^8.1.3"
+	}
+}

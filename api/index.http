@@ -1,0 +1,36 @@
+@host = http://localhost:5004
+
+### Root
+GET {{host}}
+
+### RealtimeGen
+
+POST {{host}}
+content-type: application/json
+
+{
+	"nQ": 3,
+	"mN": 4,
+	"sN": 4,
+	"flag": false
+}
+
+### Save
+
+POST {{host}}/save
+content-type: application/json
+
+{
+	"nQ": 3,
+	"mN": 4,
+	"sN": 4,
+	"flag": false
+}
+
+### ListSave
+
+GET {{host}}/listSave
+
+### Genrate By SavedId
+
+GET {{host}}/5f53a67846a0533c5f6168b7
